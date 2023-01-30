@@ -3,7 +3,7 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- pip
+- sgkit
 - numpy < 1.24
 - xarray
 - dask[complete]
@@ -16,5 +16,5 @@ dependencies:
 - rechunker
 - jupyter
 - pyprojroot
-- pip:
-    - git+https://github.com/pystatgen/sgkit.git
+- matplotlib
+- seaborn
